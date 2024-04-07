@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Traffic Management </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <h1> 
+        <span>
+            Smart
+        </span>
+        
+        <span>
+
+            Traffic 
+        </span>
+
+        <span>
+            Management 
+        </span>
+        <span>
+            System
+        </span>
+    </h1>
+    <div class="container">
+
+    </div>
+    <div class="pcontainer">
+        <div class="inputCard">
+            <div class="innerCard">
+                <input type="file" id="fileInput" style="display: none;" accept="video/*" />
+                <label for="fileInput" class="uploadLogo">
+                    <i class="fa-solid fa-upload upload"></i>
+                </label>
+                <p class="dragText">
+                    <span>Browse</span> a file
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <p id="fileInputName"></p>
+    </div>
+    
+    <div id="videoPreview"></div>
+    
+    <button class="btn" onclick="runPythonScript()">
+        Run python script
+    </button>
+    
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

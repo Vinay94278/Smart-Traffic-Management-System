@@ -1,0 +1,110 @@
+*{
+    font-family: 'Nunito';
+}
+body{
+    background-color: white;
+}
+h1 {
+    font-family: 'Nunito';
+    color: antiquewhite;
+    text-align: center;
+}
+ h1 span:nth-child(1){
+color: black;
+}
+span:nth-child(2){
+    color: red;
+}
+span:nth-child(3){
+    color: #ffd60a;
+}
+span:nth-child(4){
+    color: green;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    font-family: 'Nunito';
+}
+.pcontainer{
+    padding: 0 1.5rem;
+}
+
+.inputCard {
+    border: 4px dashed #424854;
+    border-radius: 10px;
+    width: 50%;
+    /* margin: 0 2rem; */
+    /* margin: 2rem; */
+    min-width: 95%;
+    height: 300px;
+    /* background-color: #424854; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+
+
+.uploadLogo {
+    display: grid;
+    place-items: center;
+    border-radius: 9999px;
+    width: 3.5rem;
+
+    /* background: #171717; */
+    cursor: pointer;
+    aspect-ratio: 1/1;
+}
+
+.upload {
+    color: #ffd60a;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 20px;
+    border: 3px dashed red;
+    border-radius: 50%;
+}
+
+.dragText {
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    line-height: 1.25rem;
+    text-align: center;
+    max-width: 200px;
+    color: green;
+
+
+}
+
+.upload-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fileInputName{
+    color: white;
+    font-size: larger;
+    font-family: 'Nunito';
+    font-weight: 600;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: purple;
+    color: white;
+
+}
